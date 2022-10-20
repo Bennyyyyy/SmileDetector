@@ -8,6 +8,8 @@ smile_detector = cv2.CascadeClassifier('haarcascade_smile.xml')
 
 webcam = cv2.VideoCapture(0)
 
+# Checking
+
 while True:
 
     successful_frame_read, frame = webcam.read() # This will read one single frame but in the while loop it will read many frames
